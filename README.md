@@ -1,2 +1,2 @@
-articles
+Studying
 ========
