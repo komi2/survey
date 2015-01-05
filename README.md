@@ -1,4 +1,4 @@
-# Learning articles
+# Learning notes
 
 ## Index
 
