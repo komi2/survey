@@ -111,7 +111,9 @@ k-d tree上に存在しないクエリ点qを新たに指定し、qから最近�
 
 ルートからqが位置する超矩形を再帰的に求める。 ...①  
 ①で求めた末端ノードp(暫定最短データとする)とqとの距離をrとし、保持し続け最短データ以下のモノが見つかった時点で更新する。(fig7)  
+
 ![img06](./kdtree_img/img06.jpg) __fig7__  
+
 qを中心点とした半径rの超球がqとp.axisを比較した際にqが位置していなかった逆方向の超矩形Rに重なっていた場合、Rの方もバックトラッキングにより探索する。
 
 ![nnsAnimation](https://raw.githubusercontent.com/shuhei-komino/survey/master/01_Computer_Science/Algorithms_and_data_structures/kdtree_img/nnsAnimation.gif)
