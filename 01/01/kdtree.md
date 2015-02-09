@@ -116,7 +116,7 @@ k-d tree上に存在しないクエリ点qを新たに指定し、qから最近�
 
 qを中心点とした半径rの超球がqとp.axisを比較した際にqが位置していなかった逆方向の超矩形Rに重なっていた場合、Rの方もバックトラッキングにより探索する。
 
-![nnsAnimation](https://raw.githubusercontent.com/shuhei-komino/survey/master/01_Computer_Science/Algorithms_and_data_structures/kdtree_img/nnsAnimation.gif)
+![animation01](./kdtree_img/animation01.gif)
 
 
 
